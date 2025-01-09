@@ -7,7 +7,7 @@ git clone https://github.com/riskiputraalamzah/pabw-client-server-cars-project.g
 ## 2. Buka folder yang telah di clone, lalu masuk di folder client & server(buka di terminal)
 jalankan perintah berikut 
 ```
-python3 -m venv venv
+python3 -m venv .venv
 ```
 untuk windows : 
 ```
