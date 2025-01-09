@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Konfigurasi IDE
+.idea/
+.vscode/
+
+# File konfigurasi rahasia
+*.env
+*.local
+secret_key.txt
+
+# File log
+*.log
+
+# File hasil build
+build/
+dist/
+*.egg-info/
+.vercel

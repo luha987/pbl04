@@ -1,0 +1,78 @@
+{% include 'header.html' %}
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Tugas PABW</h1>
+        <h3 class="mt-3">
+          <span class="badge badge-primary">Menu :</span>
+          <a href="{{ url_for('createcar') }}" class="btn btn-link">Create</a>
+          <a href="{{ url_for('readcar') }}" class="btn btn-link">Read</a>
+          <a href="{{ url_for('updatecar') }}" class="btn btn-link">Update</a>
+          <a href="{{ url_for('deletecar') }}" class="btn btn-link">Delete</a>
+          <a href="{{ url_for('searchcar') }}" class="btn btn-link">Search</a>
+          <a href="{{ url_for('uploadcsv') }}" class="btn btn-link"
+            >Upload CSV</a
+          >
+        </h3>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-12 text-center">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Selamat datang di Sistem Manajemen Mobil</h4>
+            <p class="card-text">
+              Kelola data mobil Anda secara efisien dengan platform kami yang mudah digunakan.
+              Anda dapat membuat, membaca, memperbarui, dan menghapus catatan mobil sesuai kebutuhan.
+            </p>
+            <a href="{{ url_for('createcar') }}" class="btn btn-primary"
+              >Mulai</a
+            >
+          </div>
+          <br>
+          <div class="card-body">
+            <h4 class="card-title">Content By :</h4>
+            <p class="card-text">
+              Nama: <strong>Nuraji Dwi Setiawan</strong><br />
+              NIM: <strong>211080200003</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    h1 {
+      color: #00ff9d;
+    }
+    .btn-link {
+      margin: 0 10px;
+      color: #00ff9d;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .btn-link:hover {
+      color: #00b36e;
+    }
+    .card {
+      margin: 20px auto;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .card-body {
+      padding: 20px;
+    }
+    .badge {
+      margin-right: 10px;
+    }
+  </style>
+
+  {% include 'footer.html' %}
+</body>
