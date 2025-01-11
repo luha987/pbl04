@@ -61,7 +61,7 @@
 
 # Web Service Cars Project 
 
-## 2. Masuk di folder client & server(buka di terminal)
+## 1. Masuk di folder client & server(buka di terminal)
 jalankan perintah berikut 
 ```
 python3 -m venv .venv
@@ -74,7 +74,7 @@ untuk MacOS/Linux :
 ```
 source venv/bin/activate
 ```
-## 3. Jalankan file di main.py di masing-masing folder nya (client dan server)
+## 2. Jalankan file di main.py di masing-masing folder nya (client dan server)
 ```
 python3 main.py
 ```
